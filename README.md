@@ -83,7 +83,7 @@ conda install dask --force-reinstall
 # Check installed packages
 conda list
 ```
-## Step 3. Launch Jupyter Lab**
+## Step 3. Launch Jupyter Lab
 ```
 cd /Users/yourusername/Documents/EV333_AtmosphericScience
 jupyter lab
