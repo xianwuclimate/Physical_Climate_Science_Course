@@ -57,13 +57,20 @@ conda config --add channels conda-forge
 ```
 **4. Create a New Python Environment**
 ```
-conda create -n PhyClimSci python=3.11 jupyterlab=4.2.5 xarray=2024.7.0 netcdf4=1.6.0 matplotlib=3.9.2 numpy=1.26.4 cartopy=0.23.0 pandas=2.2.2 h5netcdf=1.3.0 xesmf=0.8.7 cmocean=4.0.3 scipy=1.14.1
+# Create environment with core packages only, let conda resolve dependencies
+conda create -n PhyClimSci -c conda-forge python=3.11 jupyterlab xarray netcdf4 matplotlib numpy cartopy pandas h5netcdf xesmf cmocean scipy
+
 ```
 
 **5. Activate your Environment**
 ```
 conda activate PhyClimSci
 ```
+# Install Cartopy and PyProj after environment is created
+```
+conda install -c conda-forge cartopy=0.23.0 pyproj geos proj libtiff
+```
+
 Check your Python version
 ```
 python --version
