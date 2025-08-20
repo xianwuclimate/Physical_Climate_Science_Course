@@ -66,19 +66,17 @@ conda create -n PhyClimSci -c conda-forge python=3.11 jupyterlab xarray netcdf4 
 ```
 conda activate PhyClimSci
 ```
-# Install Cartopy and PyProj after environment is created
-```
-conda install -c conda-forge cartopy=0.23.0 pyproj geos proj libtiff
-```
 
 Check your Python version
 ```
 python --version
 ```
+
 List environments:
 ```
 conda env list
 ```
+
 (Not now) In the future, if you need to install additional packages:
 ```
 # Install NetCDF4 (specific version)
