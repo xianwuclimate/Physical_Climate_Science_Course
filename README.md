@@ -68,7 +68,7 @@ Check your Python version
 ```
 python --version
 ```
-List environemts:
+List environments:
 ```
 conda env list
 ```
@@ -83,12 +83,12 @@ conda install dask --force-reinstall
 # Check installed packages
 conda list
 ```
-**6. Launch Jupyter Lab**
+## Step 3. Launch Jupyter Lab**
 ```
 cd /Users/yourusername/Documents/EV333_AtmosphericScience
 jupyter lab
 ```
-**7. Download the first notebook,** `PhyClimSci_Lecture1_Introduction_SAT_Rainfall.ipynb`, from this GitHub repository. Save it in your course directory and rename it by appending your name. For example: `PhyClimSci_Lecture1_Introduction_SAT_Rainfall_Xian_Wu.ipynb`.
+**Download the first notebook,** `PhyClimSci_Lecture1_Introduction_SAT_Rainfall.ipynb`, from this GitHub repository. Save it in your course directory and rename it by appending your name. For example: `PhyClimSci_Lecture1_Introduction_SAT_Rainfall_Xian_Wu.ipynb`.
  
    
 Run the cells by clicking the play button. Hope this will work for you!
