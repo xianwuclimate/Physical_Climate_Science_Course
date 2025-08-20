@@ -91,8 +91,11 @@ conda install dask --force-reinstall
 conda list
 ```
 ## Step 3. Launch Jupyter Lab
+#enter the course directory
 ```
 cd /Users/yourusername/Documents/EV333_AtmosphericScience
+
+#launch Jupyter lab
 jupyter lab
 ```
 **Download the first notebook,** `PhyClimSci_Lecture1_Introduction_SAT_Rainfall.ipynb`, from this GitHub repository. Save it in your course directory and rename it by appending your name. For example: `PhyClimSci_Lecture1_Introduction_SAT_Rainfall_Xian_Wu.ipynb`.
