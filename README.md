@@ -96,9 +96,8 @@ cd /Users/yourusername/Documents/EV333_AtmosphericScience
 #launch Jupyter lab
 jupyter lab
 ```
-**Download the first notebook,** `PhyClimSci_Lecture1_Introduction_SAT.ipynb`, from this GitHub repository. Save it in your course directory and rename it by appending your name. For example: `PhyClimSci_Lecture1_Introduction_SAT_Rainfall_Xian_Wu.ipynb`.
+**Download the first notebook,** `PhyClimSci_Lecture1_Introduction_SAT.ipynb`, from this GitHub repository. Save it in your course directory and rename it by adding your name at the end, so it can be submitted later as your homework assignment. For example: `PhyClimSci_Lecture1_Introduction_SAT_Xian_Wu.ipynb`.
  
-   
 Run the cells by clicking the play button. Hope this will work for you!
 
 
