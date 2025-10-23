@@ -49,7 +49,7 @@ Anaconda is a popular distribution of Python for data science that simplifies pa
 
 **2. Navigate to this directory. For example, on macOS:**
 ```
-cd /Users/yourusername/Documents/EV333_AtmosphericScience
+cd /Users/yourusername/Documents/yourusername
 ```
 **3. Add conda-forge Channel**
 ```
@@ -91,7 +91,7 @@ conda list
 ## Step 3. Launch Jupyter Lab
 #enter the course directory
 ```
-cd /Users/yourusername/Documents/EV333_AtmosphericScience
+cd /Users/yourusername/Documents/yourusername
 
 #launch Jupyter lab
 jupyter lab
